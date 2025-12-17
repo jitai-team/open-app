@@ -56,28 +56,6 @@ When you inherit from Open-App, you automatically gain access to:
 - **[jitai-i18n](https://github.com/jitai-team/jitai-i18n)** - Internationalization
 - **[jitai-commons](https://github.com/jitai-team/jitai-commons)** - Common utilities
 
-## Usage Example
-
-```python
-from openapp import OpenApp
-
-class MyBusinessApp(OpenApp):
-    """
-    Your business application inherits all framework capabilities
-    from Open-App through multiple inheritance
-    """
-    
-    def __init__(self):
-        super().__init__()
-        # Now you have access to:
-        # - self.web (UI components, pages, portals)
-        # - self.ai (LLM, agents, knowledge base)
-        # - self.auth (user management, permissions)
-        # - self.orm (data models, database)
-        # - self.service (API integration, events)
-        # - ... and all other framework capabilities
-```
-
 ## Getting Started
 
 For development setup and contribution guidelines, please refer to the [JitAI Quickstart](https://github.com/jitai-team/quickstart) repository.

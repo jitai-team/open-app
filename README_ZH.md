@@ -56,27 +56,6 @@ Open-App 作为连接 JitNode 引擎与框架应用的底盘：
 - **[jitai-i18n](https://github.com/jitai-team/jitai-i18n)** - 国际化支持
 - **[jitai-commons](https://github.com/jitai-team/jitai-commons)** - 公共工具
 
-## 使用示例
-
-```python
-from openapp import OpenApp
-
-class MyBusinessApp(OpenApp):
-    """
-    你的业务应用通过多继承从 Open-App 获得所有框架能力
-    """
-    
-    def __init__(self):
-        super().__init__()
-        # 现在你可以访问：
-        # - self.web (UI 组件、页面、门户)
-        # - self.ai (大模型、Agent、知识库)
-        # - self.auth (用户管理、权限)
-        # - self.orm (数据模型、数据库)
-        # - self.service (API 集成、事件)
-        # - ... 以及所有其他框架能力
-```
-
 ## 快速开始
 
 有关开发环境搭建和贡献指南，请参考 [JitAI Quickstart](https://github.com/jitai-team/quickstart) 仓库。
